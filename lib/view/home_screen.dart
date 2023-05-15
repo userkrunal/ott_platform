@@ -61,11 +61,7 @@ class _OTTHomeScreenState extends State<OTTHomeScreen> {
                 ),
               )).toList(),
             ),
-            // Container(
-            //   height: 30.h,
-            //   width: 100.w,
-            //   decoration: BoxDecoration(image: DecorationImage(image: AssetImage("assets/images/img_9.png"),fit: BoxFit.fill)),
-            // ),
+
             Expanded(
               child: GridView.builder(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),itemBuilder: (context, index) {
                return Padding(

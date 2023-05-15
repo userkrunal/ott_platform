@@ -62,29 +62,6 @@ class _WebScreenState extends State<WebScreen> {
               pullToRefreshController: pullToRefreshController,
             ),
           ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: [
-              IconButton(
-                onPressed: () => webViewController!.goBack(),
-                icon: Icon(Icons.arrow_back_rounded,color: Colors.white),
-                iconSize: 25,
-                color: Colors.black87,
-              ),
-              IconButton(
-                onPressed: () => webViewController!.reload(),
-                icon: Icon(Icons.refresh_rounded,color: Colors.white),
-                iconSize: 25,
-                color: Colors.black87,
-              ),
-              IconButton(
-                onPressed: () => webViewController!.goForward(),
-                icon: Icon(Icons.arrow_forward_rounded,color: Colors.white),
-                iconSize: 25,
-                color: Colors.black87,
-              ),
-            ],
-          )
         ],
       ),
     ));
